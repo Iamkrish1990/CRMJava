@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31259" started-at="2020-04-19T16:43:13Z" finished-at="2020-04-19T16:43:44Z">
+  <suite name="Free CRM Application test automation" duration-ms="60693" started-at="2020-04-20T16:57:50Z" finished-at="2020-04-20T16:58:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31259" started-at="2020-04-19T16:43:13Z" finished-at="2020-04-19T16:43:44Z">
+    <test name="Free crm application test" duration-ms="60693" started-at="2020-04-20T16:57:50Z" finished-at="2020-04-20T16:58:50Z">
+      <class name="testScripts.Contact.verifyContactPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.Contact.verifyContactPage@2fd66ad3]" name="setup" is-config="true" duration-ms="12471" started-at="2020-04-20T16:58:28Z" finished-at="2020-04-20T16:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:testScripts.Contact.verifyContactPage@2fd66ad3]" name="execute" duration-ms="9040" started-at="2020-04-20T16:58:41Z" finished-at="2020-04-20T16:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.verifyContactPage@2fd66ad3]" name="tearDown" is-config="true" duration-ms="644" started-at="2020-04-20T16:58:50Z" finished-at="2020-04-20T16:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Contact.verifyContactPage -->
       <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="setUp" is-config="true" duration-ms="15060" started-at="2020-04-19T16:43:15Z" finished-at="2020-04-19T16:43:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@376b4233]" name="setUp" is-config="true" duration-ms="14738" started-at="2020-04-20T16:57:50Z" finished-at="2020-04-20T16:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="executeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="executeTest" duration-ms="13079" started-at="2020-04-19T16:43:30Z" data-provider="getCRMTestData" finished-at="2020-04-19T16:43:43Z">
+        <test-method status="FAIL" signature="executeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@376b4233]" name="executeTest" duration-ms="21636" started-at="2020-04-20T16:58:05Z" data-provider="getCRMTestData" finished-at="2020-04-20T16:58:27Z">
           <params>
             <param index="0">
               <value>
@@ -34,14 +48,90 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit1' and @value='Save']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5J46QLU', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c097c7bdf630b3ba1f6a7e074206c108
+*** Element info: {Using=xpath, value=//input[@type='submit1' and @value='Save']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit1' and @value='Save']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5J46QLU', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c097c7bdf630b3ba1f6a7e074206c108
+*** Element info: {Using=xpath, value=//input[@type='submit1' and @value='Save']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at pages.ContactPage.enterContactInfo(ContactPage.java:61)
+at testScripts.Contact.CRM_R_1_0_Enter_Contact_Details.executeTest(CRM_R_1_0_Enter_Contact_Details.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-04-19T16:43:43Z" finished-at="2020-04-19T16:43:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@376b4233]" name="tearDown" is-config="true" duration-ms="659" started-at="2020-04-20T16:58:28Z" finished-at="2020-04-20T16:58:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Free crm application test -->
+  </suite> <!-- Free CRM Application test automation -->
 </testng-results>

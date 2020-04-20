@@ -27,13 +27,13 @@ public class ExtentReporting {
             extent.attachReporter(htmlReporter);
 
             // attach the desired information on the report
-            extent.setSystemInfo("Host Name", "Applied Selenium");
-            extent.setSystemInfo("Environment", "QA");
-            extent.setSystemInfo("User Name", "Dhawal Joshi");
+            extent.setSystemInfo("Host Name", "Krish-ThinKpad");
+            extent.setSystemInfo("Environment", "Test");
+            extent.setSystemInfo("User Name", "Krishnendu");
             htmlReporter.config().setDocumentTitle("Extent Report Result");
 
             // Name of the report
-            htmlReporter.config().setReportName("Applied Selenium - POM");
+            htmlReporter.config().setReportName("Free CRM Test");
 
             // Dark Theme
             htmlReporter.config().setTheme(Theme.STANDARD);

@@ -6,7 +6,7 @@
       <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
         <methods>
           <include name="tearDown"/>
-          <include name="executeTest" invocation-numbers="0 1"/>
+          <include name="executeTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->

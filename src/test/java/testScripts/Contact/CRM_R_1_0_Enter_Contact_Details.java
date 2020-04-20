@@ -50,18 +50,13 @@ public class CRM_R_1_0_Enter_Contact_Details extends TestBase{
 	@Test(dataProvider="getCRMTestData")
 	public void executeTest(String title, String firstName, String lastName,String company)
 	{
-		test = report.createTest("isProductSearched");
+		test = report.createTest("Verify_filling_of_Contact");
 		HomePage homepage =login.memberLogin(prop.getProperty("userName"), prop.getProperty("password"));
 		util.switchToFrame();
 		boolean flag = homepage.verifyUser();
 		Assert.assertTrue(flag , "Expected Message is not shown");
 		homepage.clickOnNewContactTab();
-		
-		//excelutil.getPackageName(packageName);
-	
-		
-		
-			contactpage.enterContactInfo(title, firstName, lastName, company);
+		contactpage.enterContactInfo(title, firstName, lastName, company);
 		
 		 
 	}

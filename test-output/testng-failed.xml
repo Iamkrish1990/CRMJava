@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Application test automation]">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Free crm application test(failed)">
     <classes>
       <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
         <methods>
           <include name="tearDown"/>
-          <include name="executeTest" invocation-numbers="0 1"/>
+          <include name="executeTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Free crm application test(failed) -->
+</suite> <!-- Failed suite [Free CRM Application test automation] -->
