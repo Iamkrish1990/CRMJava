@@ -1,0 +1,3 @@
+testScripts\Contact\verifyContactPage.class
+testScripts\Contact\CRM_R_1_0_Enter_Contact_Details.class
+testScripts\login\verifyLogin.class

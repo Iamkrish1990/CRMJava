@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application test automation">
+<listeners>
+	<listener class-name="listeners.TestListener"/>
+</listeners>
+  <test name="Free crm application test">
+    <classes>
+      <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details"/>
+      <class name="testScripts.Contact.verifyContactPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

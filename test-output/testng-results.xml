@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31259" started-at="2020-04-19T16:43:13Z" finished-at="2020-04-19T16:43:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31259" started-at="2020-04-19T16:43:13Z" finished-at="2020-04-19T16:43:44Z">
+      <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="setUp" is-config="true" duration-ms="15060" started-at="2020-04-19T16:43:15Z" finished-at="2020-04-19T16:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="executeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="executeTest" duration-ms="13079" started-at="2020-04-19T16:43:30Z" data-provider="getCRMTestData" finished-at="2020-04-19T16:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dick]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@5204062d]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-04-19T16:43:43Z" finished-at="2020-04-19T16:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

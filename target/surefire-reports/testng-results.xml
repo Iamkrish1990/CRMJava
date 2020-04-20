@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free CRM Application test automation" duration-ms="66946" started-at="2020-04-19T18:33:06Z" finished-at="2020-04-19T18:34:13Z">
+    <groups>
+    </groups>
+    <test name="Free crm application test" duration-ms="66946" started-at="2020-04-19T18:33:06Z" finished-at="2020-04-19T18:34:13Z">
+      <class name="testScripts.Contact.verifyContactPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.Contact.verifyContactPage@17d677df]" name="setup" is-config="true" duration-ms="11169" started-at="2020-04-19T18:33:41Z" finished-at="2020-04-19T18:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:testScripts.Contact.verifyContactPage@17d677df]" name="execute" duration-ms="20064" started-at="2020-04-19T18:33:52Z" finished-at="2020-04-19T18:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.verifyContactPage@17d677df]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-04-19T18:34:12Z" finished-at="2020-04-19T18:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Contact.verifyContactPage -->
+      <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@76b0bfab]" name="setUp" is-config="true" duration-ms="17309" started-at="2020-04-19T18:33:06Z" finished-at="2020-04-19T18:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="executeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@76b0bfab]" name="executeTest" duration-ms="16351" started-at="2020-04-19T18:33:24Z" data-provider="getCRMTestData" finished-at="2020-04-19T18:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dick]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Contact.CRM_R_1_0_Enter_Contact_Details@76b0bfab]" name="tearDown" is-config="true" duration-ms="623" started-at="2020-04-19T18:33:40Z" finished-at="2020-04-19T18:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->
+    </test> <!-- Free crm application test -->
+  </suite> <!-- Free CRM Application test automation -->
+</testng-results>
