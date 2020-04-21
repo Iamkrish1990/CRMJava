@@ -7,7 +7,8 @@
   <test name="Free crm application test">
     <classes>
       <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details"/>
-      <class name="testScripts.Contact.verifyContactPage"/>
+      <class name="testScripts.Contact.CRM_R_1_1_Verify_Contact_Page"/>
+      <class name="testScripts.login.CRM_R_1_0_Verify_Login_Credential"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

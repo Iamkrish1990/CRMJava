@@ -1,22 +1,15 @@
-package testScripts.login;
+package testScripts.Contact;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import pages.HomePage;
 import pages.LoginPage;
 import testBase.TestBase;
 import util.Utility;
 
-public class verifyLogin extends TestBase{
-	
-	
-	/*public verifyLogin()
-	{
-		super();
-	}*/
+public class CRM_R_1_1_Verify_Contact_Page extends TestBase{
 	
 	
 	LoginPage login ;
@@ -38,6 +31,8 @@ public class verifyLogin extends TestBase{
 		util.switchToFrame();
 		boolean flag = homepage.verifyUser();
 		Assert.assertTrue(flag , "Expected Message is not shown");
+		util.clickOnTab("Contacts");
+		
 		
 	}
 	
@@ -48,6 +43,5 @@ public class verifyLogin extends TestBase{
 		driver.quit();
 		
 	}
-	
 
 }
