@@ -34,7 +34,7 @@ public class CRM_R_1_0_Verify_Login_Credential extends TestBase{
 	@Test
 	public void execute()
 	{
-		
+		test = report.createTest("Verify login");
 		HomePage homepage =login.memberLogin(prop.getProperty("userName"), prop.getProperty("password"));
 		util.switchToFrame();
 		log.info("frame switched");

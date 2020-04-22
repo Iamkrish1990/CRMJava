@@ -5,7 +5,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import extentReportListener.ExtentReporterNG;
 import pages.ContactPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -19,7 +18,7 @@ public class CRM_R_1_0_Enter_Contact_Details extends TestBase{
 	Utility util;
 	ContactPage contactpage;
 	ExcelUtil excelutil;
-	ExtentReporterNG extentTest;
+	
 		
 	@BeforeMethod
 	public void setUp()

@@ -27,6 +27,7 @@ public class CRM_R_1_1_Verify_Contact_Page extends TestBase{
 	@Test
 	public void execute()
 	{
+		test = report.createTest("Verify Contact Page");
 		HomePage homepage =login.memberLogin(prop.getProperty("userName"), prop.getProperty("password"));
 		util.switchToFrame();
 		boolean flag = homepage.verifyUser();
