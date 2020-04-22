@@ -14,7 +14,7 @@ public class ContactPage extends TestBase{
 	@FindBy(xpath="//a[contains(text() , 'Contacts')]")
 	WebElement lnkContact;
 	
-	@FindBy(xpath="//input[@type='submit1' and @value='Save']")
+	@FindBy(xpath="//input[@type='submit' and @value='Save']")
 	WebElement btnSave;
 	
 	
