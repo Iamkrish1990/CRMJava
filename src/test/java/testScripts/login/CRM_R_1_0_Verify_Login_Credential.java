@@ -1,5 +1,6 @@
 package testScripts.login;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -33,8 +34,10 @@ public class CRM_R_1_0_Verify_Login_Credential extends TestBase{
 	@Test
 	public void execute()
 	{
+		
 		HomePage homepage =login.memberLogin(prop.getProperty("userName"), prop.getProperty("password"));
 		util.switchToFrame();
+		log.info("frame switched");
 		boolean flag = homepage.verifyUser();
 		Assert.assertTrue(flag , "Expected Message is not shown");
 		
