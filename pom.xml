@@ -11,7 +11,7 @@
 				<inherited>true</inherited>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\Krishnendu PC\Desktop\SharedFramework\FreeCRMTest\src\test\resources\testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
