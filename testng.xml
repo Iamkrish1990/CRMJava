@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="listeners.TestListener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testScripts.Contact.CRM_R_1_1_Verify_Contact_Page"/>
+      <class name="testScripts.login.CRM_R_1_0_Verify_Login_Credential"/>
+      <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
