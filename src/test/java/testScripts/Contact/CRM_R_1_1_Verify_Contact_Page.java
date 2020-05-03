@@ -31,7 +31,7 @@ public class CRM_R_1_1_Verify_Contact_Page extends TestBase{
 		HomePage homepage =login.memberLogin(prop.getProperty("userName"), prop.getProperty("password"));
 		util.switchToFrame();
 		boolean flag = homepage.verifyUser();
-		Assert.assertTrue(flag , "Expected Message is not shown");
+		Assert.assertFalse(flag , "Expected Message is not shown");
 		util.clickOnTab("Contacts");
 		
 		
