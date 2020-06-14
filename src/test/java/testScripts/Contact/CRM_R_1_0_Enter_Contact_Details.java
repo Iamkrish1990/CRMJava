@@ -5,10 +5,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import framework.selenium.TestBase;
 import pages.ContactPage;
 import pages.HomePage;
 import pages.LoginPage;
-import testBase.TestBase;
 import util.ExcelUtil;
 import util.Utility;
 

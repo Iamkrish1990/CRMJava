@@ -70,7 +70,7 @@ public class TestBase {
 		
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
-		e_driver.register(eventListener);
+		e_driver.register(eventListener); 
 		driver=e_driver;
 		
 		driver.manage().window().maximize();
@@ -79,6 +79,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
+		//driver.get("URL");
 	}
 	
 	

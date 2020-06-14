@@ -6,7 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import testBase.TestBase;
+import framework.selenium.TestBase;
+
+
 
 public class ContactPage extends TestBase{
 	
@@ -62,6 +64,8 @@ public class ContactPage extends TestBase{
 		
 		
 	}
+	
+	
 	
 	
 	

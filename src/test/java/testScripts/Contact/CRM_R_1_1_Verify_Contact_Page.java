@@ -4,9 +4,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import framework.selenium.TestBase;
 import pages.HomePage;
 import pages.LoginPage;
-import testBase.TestBase;
 import util.Utility;
 
 public class CRM_R_1_1_Verify_Contact_Page extends TestBase{
