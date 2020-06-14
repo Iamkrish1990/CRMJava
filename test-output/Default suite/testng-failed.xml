@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.Contact.CRM_R_1_0_Enter_Contact_Details">
+      <class name="testScripts.login.CRM_R_1_0_Verify_Login_Credential">
         <methods>
           <include name="tearDown"/>
-          <include name="executeTest" invocation-numbers="0"/>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="execute"/>
         </methods>
-      </class> <!-- testScripts.Contact.CRM_R_1_0_Enter_Contact_Details -->
+      </class> <!-- testScripts.login.CRM_R_1_0_Verify_Login_Credential -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

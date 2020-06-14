@@ -13,7 +13,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import testBase.TestBase;
+import framework.selenium.TestBase;
+
 
 public class Utility extends TestBase{
 	
